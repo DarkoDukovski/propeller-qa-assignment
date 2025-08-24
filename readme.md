@@ -1,5 +1,5 @@
 # Propeller QA Assignment
-
+![CI](https://github.com/DarkoDukovski/propeller-qa-assignment/actions/workflows/ci.yml/badge.svg)
 This repository contains my solution for the Propeller QA Assignment.  
 The goal was to test a headless GraphQL API and to set up a CI/CD pipeline for automated testing.
 
@@ -31,7 +31,7 @@ npm install
 3. Run tests:
 npm test
 
-Task 2: CI/CD Pipeline (Bonus)
+## Task 2: CI/CD Pipeline (Bonus)
 
 I set up a GitHub Actions workflow (.github/workflows/ci.yml) to automatically run the tests.
 The pipeline has two stages:
@@ -48,7 +48,7 @@ Also runs daily on schedule (07:00 UTC)
 
 This ensures that the tests are executed continuously and that any issues are caught early.
 
-Notes
+## Notes
 
 The API is read-only, so create mutations are skipped.
 
