@@ -1,0 +1,44 @@
+{
+
+  "name": "propeller-qa-assignment",
+
+  "version": "1.0.0",
+
+  "description": "Automated QA tests for GraphQL API (Users & Albums)",
+
+  "main": "index.js",
+
+  "scripts": {
+
+    "test": "jest --runInBand"
+
+  },
+
+  "keywords": [],
+
+  "author": "Darko Dukovski",
+
+  "license": "ISC",
+
+  "devDependencies": {
+
+    "jest": "^30.0.5",
+
+    "supertest": "^7.1.4"
+
+  },
+
+  "engines": {
+
+    "node": ">=18"
+
+  },
+
+  "dependencies": {
+
+    "axios": "^1.11.0"
+
+  }
+
+}
+
